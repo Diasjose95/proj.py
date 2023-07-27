@@ -68,7 +68,7 @@ def resto_divisao(*valores: int) -> int:
         resultado = resultado%v
     return resultado 
 
-def raiz(*valores: float) -> float:
+def raizq(*valores: float) -> float:
     """
     comentarios!
     """
