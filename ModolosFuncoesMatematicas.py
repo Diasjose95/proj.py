@@ -78,3 +78,12 @@ def raiz(*valores: float) -> float:
         resultado = resultado**(1/2)
     return resultado 
 
+def raizc(*valores: float) -> float:
+    """
+   esse codigo caucula a raiz quadrada de um numero
+    """
+   
+    resultado = 0
+    for v in valores:
+        resultado = resultado**(1/3)
+    return resultado 
