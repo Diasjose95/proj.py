@@ -1,6 +1,6 @@
 def somar(*valores: int) -> int:
     """
-    comentarios!
+    estes comando visa realizar a soma de numeros!
     """
    
     resultado = 0
@@ -10,7 +10,7 @@ def somar(*valores: int) -> int:
 
 def subitrair(*valores: int) -> int:
     """
-    comentarios!
+    este comando visa realizar a subitraçao de dois ou mais numeros
     """
    
     resultado = 0
@@ -20,7 +20,7 @@ def subitrair(*valores: int) -> int:
 
 def dividir(*valores: float) -> float:
     """
-    comentarios!
+    este comando visa realizar a divisao de dois ou mais valores com resultado real!
     """
    
     resultado = 0
@@ -30,7 +30,7 @@ def dividir(*valores: float) -> float:
 
 def multiplicar(*valores: int) -> int:
     """
-    comentarios!
+    este comando visa realizar a multiplicaçao dos valores!
     """
    
     resultado = 0
@@ -40,7 +40,7 @@ def multiplicar(*valores: int) -> int:
 
 def potencia(*valores: int) -> int:
     """
-    comentarios!
+    .......
     """
    
     resultado = 0
@@ -50,7 +50,7 @@ def potencia(*valores: int) -> int:
 
 def divisao_int(*valores: int) -> int:
     """
-    comentarios!
+    este comando visa realizar a divisão inteira
     """
    
     resultado = 0
@@ -60,7 +60,7 @@ def divisao_int(*valores: int) -> int:
 
 def resto_divisao(*valores: int) -> int:
     """
-    comentarios!
+    este comando retorna o resto da divisão inteira!
     """
    
     resultado = 0
@@ -70,20 +70,20 @@ def resto_divisao(*valores: int) -> int:
 
 def raizq(*valores: float) -> float:
     """
-    comentarios!
+    este comando encontra encontra a raiz quadrada de um numero!
     """
    
     resultado = 0
     for v in valores:
-        resultado = resultado**(1/2)
+        resultado = v**(1/2)
     return resultado 
 
 def raizc(*valores: float) -> float:
     """
-   esse codigo caucula a raiz quadrada de um numero
+   este comando encontra encontra a raiz cubica de um numero!
     """
    
     resultado = 0
     for v in valores:
-        resultado = resultado**(1/3)
+        resultado = v**(1/3)
     return resultado 
